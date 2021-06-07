@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    @keyframes spin {
+    100% {
+    transform: rotate(360deg);
+    }
+    }
+    .spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid yellow;
+    border-color: yellow transparent transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="spinner"></div>
+  </body>
+</html>

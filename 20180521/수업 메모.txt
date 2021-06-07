@@ -1,0 +1,24 @@
+실습: 포지션 잡기, 피자헛 페이지 만들기, 학과 동영상
+
+margin: 0 auto; //중앙 정렬
+
+백그라운드 컬러를 주기 전에 넓이와 높이를 지정해주어야 색깔이 나타난다.
+
+HTML5는 순차적으로 읽어냄.
+
+iframe //현재 HTML 페이지 내에 내장 윈도우를 만들고 다른 HTML페이지 출력 가능.
+
+* //전체 선택자
+
+margin: 0; padding: 0; //여백 없애기
+
+margin-top //border의 바깥 라인
+margin-left //border의 왼쪽
+
+크롬 F12
+
+CSS3 우선 순위
+
+책의 예제를 스타일로 올려서 실습
+
+하이퍼링크 속성 없애기: text-decoration: none;

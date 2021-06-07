@@ -1,0 +1,53 @@
+20180514 수업
+
+people.html,app.html 실습 ----집에서 해보아야지.. 카페 참고
+
+margin: 0; padding: 0; //공백 없애주는 것
+
+<style media="screen">
+      *{
+        margin: 0; padding: 0;
+      }
+    </style> -------ex)style 시트 불러오기
+
+margin: 0 auto; //중앙 정렬
+
+background-color: red; //배경 색
+
+solid
+
+border-bottom //보더의 경계
+
+display:block //옆에 다른 요소 배치 불가능, 세로로 내려가는 형태, 한 줄을 독립적으로 차지하여 옆에 다른 곳으로 배치되지 않음.
+
+display:inline //옆에 다른 요소 배치 가능, 가로 형태, 공간이 좁으면 남는 부분이 다음 라인으로 넘어감...
+
+
+display:inline-block //옆에 다른 요소 배치 가능, 가로 형태
+
+
+position:static //정적 배치(디폴트)
+
+postion:relative //상대 배치
+
+postion:absolute //절대 배치
+
+postion:fixed //고정 배치
+
+float:left or float:right //유동 배치
+
+hover //마우스 오버 시 변화가 나타나는 것
+
+color //글자 색 변경
+
+postion 위치,크기 조절: top. bottom, left, right, width, height
+
+padding: 안 쪽
+
+strong: 굵게
+
+em: 강조
+
+margin-top: 위에서 띄어주기
+
+margin-top이 먹히지 않을 시에 디스플레이를 적용시켜주어야함.

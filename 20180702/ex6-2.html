@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>script 태그에 자바스크립트 작성</title>
+    <script>
+      function over(obj) {
+        obj.src="캘린더.PNG";
+      }
+      function out(obj) {
+        obj.src="계산기.PNG";
+      }
+    </script>
+  </head>
+  <body>
+    <h3>마우스 올려 보세요</h3>
+    <hr>
+    <img src="계산기.PNG" alt="이미지"
+    onmouseover="over(this)"
+    onmouseout="out(this)">
+  </body>
+</html>
